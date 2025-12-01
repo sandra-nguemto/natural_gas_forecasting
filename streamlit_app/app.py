@@ -208,7 +208,7 @@ with st.sidebar:
     )
 
     st.markdown("---")
-    st.write("Data source: EIA – delivered to consumers (MMcf).")
+    st.write("[Data source: EIA – delivered to consumers (MMcf).](https://www.eia.gov/dnav/ng/ng_cons_sum_a_EPG0_vgt_mmcf_m.htm)")
 
 
 if not selected_states:
