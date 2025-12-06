@@ -209,9 +209,11 @@ Monthly vs annual aggregation
 
 Built on DuckDB, queries are extremely fast even on large datasets.
 
+---
+
+#  Future Improvements
 
 
-Future Improvements
 
 Add multi-state forecasting (CA, NY, FL, etc.)
 
@@ -229,7 +231,8 @@ Deploy Streamlit app online
 
 Add automated daily/weekly pipelines using scripts instead of notebooks
 
-References
+--- 
+# References
 
 U.S. Energy Information Administration (EIA) – Natural Gas Delivered to Consumers
 
@@ -241,7 +244,9 @@ DuckDB project
 
 Streamlit documentation
 
-Summary
+---
+
+# Summary
 
 This project demonstrates a full-stack data science workflow:
 
