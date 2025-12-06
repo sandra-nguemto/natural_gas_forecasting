@@ -17,6 +17,7 @@ The goal is to demonstrate a *production-style* data science workflow:
 
 # 📁 Project Structure
 
+```
 natural_gas_forecasting/
 │
 ├── data/
@@ -44,7 +45,7 @@ natural_gas_forecasting/
 ├── natural_gas.duckdb              # DuckDB OLAP database
 ├── requirements.txt
 └── README.md
-
+````
 
 ---
 
