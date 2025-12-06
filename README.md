@@ -187,8 +187,9 @@ Run the dashboard:
 ```bash
 streamlit run streamlit_app/app.py
 ````
+---
 
-Dashboard Features
+# 🚀 Dashboard Features
 
 📈 Interactive line charts for any state or group of states
 
@@ -208,17 +209,7 @@ Monthly vs annual aggregation
 
 Built on DuckDB, queries are extremely fast even on large datasets.
 
-Installation
 
-```bash
-pip install -r requirements.txt
-```
-
-To run the Streamlit app:
-
-```bash`
-streamlit run streamlit_app/app.py
-```
 
 Future Improvements
 
