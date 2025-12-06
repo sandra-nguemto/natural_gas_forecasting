@@ -39,7 +39,11 @@ natural_gas_forecasting/
 │   └── forecast_texas.ipynb        # Recursive 12-month forecast
 │
 ├── streamlit_app/
-│   └── app.py
+│   └── app.py                      # Interactive dashboard
+│
+├── natural_gas.duckdb              # DuckDB OLAP database
+├── requirements.txt
+└── README.md
 
 
 ---
