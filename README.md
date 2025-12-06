@@ -262,5 +262,5 @@ Store data in a modern analytical database
 
 Visualize insights through an interactive dashboard
 
-It is designed as a portfolio-quality example of practical, production-oriented forecasting.
+The modular structure allows for easy extension and adaptation to other states, datasets, or forecasting horizons.
 
