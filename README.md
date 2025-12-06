@@ -20,30 +20,26 @@ The goal is to demonstrate a *production-style* data science workflow:
 natural_gas_forecasting/
 │
 ├── data/
-│ ├── raw/ # Original downloaded EIA CSV
-│ ├── processed/ # Cleaned data + model FE datasets
-│ │ ├── consumer_gas_monthly_cleaned.csv
-│ │ └── model_data_texas.csv
-│ │ └── texas_forecast_12m.csv
-│ └── external/ # (future) weather, prices, etc.
+│   ├── raw/                        # Original downloaded EIA CSV
+│   ├── processed/                  # Cleaned data + model FE datasets
+│   │   ├── consumer_gas_monthly_cleaned.csv
+│   │   ├── model_data_texas.csv
+│   │   └── texas_forecast_12m.csv
+│   └── external/                   # (future) weather, prices, etc.
 │
 ├── models/
-│ ├── xgb_texas_model.json # Saved best model (XGBoost)
-│ └── (future) lgbm model
+│   ├── xgb_texas_model.json        # Saved best model (XGBoost)
+│   └── (future) lgbm model
 │
 ├── notebooks/
-│ ├── data_cleaning.ipynb # Cleaning & preprocessing
-│ ├── duckdb_creation.ipynb # Create gas_wide & gas_long tables
-│ ├── feature_engineering.ipynb # FE for Texas (lags, rolling, etc.)
-│ ├── texas_model.ipynb # Train/evaluate baseline, LGBM, XGB
-│ └── forecast_texas.ipynb # Recursive 12-month forecast
+│   ├── data_cleaning.ipynb         # Cleaning & preprocessing
+│   ├── duckdb_creation.ipynb       # Create gas_wide & gas_long tables
+│   ├── feature_engineering.ipynb   # Feature engineering for Texas
+│   ├── texas_model.ipynb           # Train baseline, LightGBM, XGBoost
+│   └── forecast_texas.ipynb        # Recursive 12-month forecast
 │
 ├── streamlit_app/
-│ └── app.py # Interactive dashboard
-│
-├── natural_gas.duckdb # DuckDB OLAP database
-├── requirements.txt
-└── README.md
+│   └── app.py
 
 
 ---
