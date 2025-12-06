@@ -186,7 +186,7 @@ Run the dashboard:
 
 ```bash
 streamlit run streamlit_app/app.py
-
+````
 
 Dashboard Features
 
