@@ -211,7 +211,7 @@ Built on DuckDB, queries are extremely fast even on large datasets.
 
 ---
 
-#  Future Improvements
+# 🔮 Future Improvements
 
 
 
@@ -232,7 +232,7 @@ Deploy Streamlit app online
 Add automated daily/weekly pipelines using scripts instead of notebooks
 
 --- 
-# References
+# 🗂️ References
 
 U.S. Energy Information Administration (EIA) – Natural Gas Delivered to Consumers
 
@@ -246,7 +246,7 @@ Streamlit documentation
 
 ---
 
-# Summary
+# 🧭 Summary
 
 This project demonstrates a full-stack data science workflow:
 
