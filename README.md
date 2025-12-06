@@ -26,7 +26,7 @@ natural_gas_forecasting/
 │   │   ├── consumer_gas_monthly_cleaned.csv
 │   │   ├── model_data_texas.csv
 │   │   └── texas_forecast_12m.csv
-│   └── external/                   # (future) weather, prices, etc.
+│   └── external/                     # (future) external datasets
 │
 ├── models/
 │   ├── xgb_texas_model.json        # Saved best model (XGBoost)
