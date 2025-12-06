@@ -181,7 +181,7 @@ The Texas forecast is included in the dashboard as a dedicated visualization sec
 
 ---
 
-# 📊 Streamlit Dashboard
+# 📊 [Streamlit Dashboard](http://192.168.0.12:8501)
 
 Run the dashboard:
 
