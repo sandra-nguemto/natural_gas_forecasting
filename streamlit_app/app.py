@@ -299,7 +299,7 @@ import pandas as pd
 import plotly.express as px  # moved to top so we can reuse it
 
 # ---------- CONFIG ----------
-DB_PATH = "natural_gas.duckdb"  # relative to project root
+DB_PATH = "./natural_gas.duckdb"  # relative to project root
 
 
 STATE_ABBREV = {
